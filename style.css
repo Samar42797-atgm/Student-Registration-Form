@@ -1,0 +1,90 @@
+ body {
+            margin: 0;
+            padding: 28px 0;
+            background-color: #38ea10;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+.form-container {
+            width: 480px;
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+h2 {
+            margin: 28px 0 20px;
+            padding-bottom: 0;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #333;
+            border-bottom: 1px solid #555;
+        }
+
+.form-group {
+            margin-bottom: 18px;
+        }
+
+.form-group  label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #444;
+        }
+
+input[type="text"],input[type="email"],select {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.75rem;
+        }
+
+select {
+            padding: 9px 10px;
+            color: #000;
+        }
+
+ .radio-group label,.checkbox-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.85rem;
+            font-weight: normal;
+            color: #444;
+        }
+
+.radio-group input,
+        .checkbox-group input {
+            margin-right: 4px;
+        }
+
+.button-group {
+            margin-top: 20px;
+        }
+
+.btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+
+.btn-reset {
+            background-color: #dc3545;
+        }
+
+.btn-submit {
+            background-color: #28a745;
+        }
+        
+.btn:hover {
+            opacity: 0.9;
+        }
